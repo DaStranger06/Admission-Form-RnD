@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/aka"
+
+            ></ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Akatsuki Clan"
+                android:textColor="@color/black"
+                android:textSize="21dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Hidden mist village"
+                android:textSize="13dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="no need of number"
+                android:textSize="13dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="we will find you"
+                android:textSize="13dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="109dp"
+            android:src="@drawable/adm"
+
+            ></ImageView>
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:background="@color/teal_700"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:dividerPadding="8dp">
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Name:"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txtname1"
+            android:layout_width="265dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="italic"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:dividerPadding="8dp">
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Village:"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txtvil1"
+            android:layout_width="265dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="italic"></TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:dividerPadding="8dp">
+
+        <TextView
+            android:layout_width="157dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Date of Birth:"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txtdob"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="italic"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="10dp"
+        android:dividerPadding="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="72dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Gender :"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="123dp"
+            android:layout_height="72dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="italic"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:dividerPadding="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Techniques:"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/tecnin"
+            android:layout_width="123dp"
+            android:layout_height="46dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="italic"></TextView>
+
+        <TextView
+            android:id="@+id/tectai"
+            android:layout_width="123dp"
+            android:layout_height="46dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="italic"></TextView>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="('Talk no Jetsu' highly recommended)"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="187dp"
+                android:layout_height="43dp"
+                android:fontFamily="sans-serif"
+
+                android:text="Strength :"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/ratebartxt"
+
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="italic"
+
+
+                ></TextView>
+
+        </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Basics"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="253dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="5dp"
+            android:text="Best akatsuki warrior?"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+
+            android:id="@+id/spntx1"
+            android:layout_width="123dp"
+            android:layout_height="86dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="italic"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:text="This world shall know the:"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/spntx2"
+            android:layout_width="123dp"
+            android:layout_height="72dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="italic"></TextView>
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/teal_700"></View>
+
+
+</LinearLayout>
+
+</ScrollView>

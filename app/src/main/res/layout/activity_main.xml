@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/aka"
+
+            ></ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Akatsuki Clan"
+                android:textColor="@color/black"
+                android:textSize="21dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Hidden mist village"
+                android:textSize="13dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="no need of number"
+                android:textSize="13dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="we will find you"
+                android:textSize="13dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="109dp"
+
+            android:src="@drawable/adm"
+
+            ></ImageView>
+
+    </LinearLayout>
+<View
+    android:layout_width="wrap_content"
+    android:layout_height="3dp"
+    android:background="@color/teal_700"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:dividerPadding="8dp">
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Name:"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/txtname"
+            android:layout_width="265dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="italic"></EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:dividerPadding="8dp">
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Village:"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/txtvil"
+            android:layout_width="265dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="italic"></EditText>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:dividerPadding="8dp">
+
+        <TextView
+            android:layout_width="157dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Date of Birth:"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/txtdob"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="italic"></EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="10dp"
+        android:dividerPadding="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="72dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Gender :"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="302dp"
+            android:layout_height="61dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbutmale"
+                android:layout_width="137dp"
+                android:layout_height="72dp"
+
+                android:text="Male"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rbutfemale"
+                android:layout_width="165dp"
+                android:layout_height="63dp"
+
+                android:text="female"></RadioButton>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:dividerPadding="8dp">
+
+        <TextView
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Techniques:"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <CheckBox
+            android:id="@+id/checkboxnin"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:text="Ninjutsu"></CheckBox>
+        <CheckBox
+            android:id="@+id/checkboxtai"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Taijutsu"
+            ></CheckBox>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="('Talk no Jetsu' highly recommended)"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Strength :"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+            <RatingBar
+                android:id="@+id/ratebar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:stepSize="0.5"
+                ></RatingBar>
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Basics"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="234dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="5dp"
+            android:text="Best akatsuki warrior?"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+
+        <Spinner
+            android:id="@+id/sp1"
+            android:layout_width="178dp"
+            android:layout_height="64dp"
+            android:paddingTop="3dp"
+
+            ></Spinner>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/spn1tx"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:textStyle="italic"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="229dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:text="This world shall know the:"
+            android:textColor="@color/black"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+
+        <Spinner
+            android:id="@+id/sp2"
+            android:layout_width="175dp"
+            android:layout_height="64dp"
+            android:paddingTop="3dp"
+
+            ></Spinner>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/spn2tx"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:textStyle="italic"></TextView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/teal_700"></View>
+
+    <Button
+        android:id="@+id/print"
+        android:layout_width="185dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/teal_700"
+        android:layout_gravity="center"
+        android:text="Print"></Button>
+
+
+</LinearLayout>
+</ScrollView>
